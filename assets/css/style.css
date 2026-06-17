@@ -1,0 +1,182 @@
+body{
+    background: #ccc;
+    font-family: 'Raleway';
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Raleway';
+}
+.navbar {
+    background: #1ba0db;
+}
+#Header a:hover{
+    color: #fff;
+
+}
+a, h1, h2, h3, h4, h5, body, ul, li, p, {
+    font-family: 'Raleway';
+}
+a{
+    font-weight: 400;
+}
+h2 {
+    font-weight: 600;
+}
+span {
+    font-weight: 500;
+}
+
+#bg-img {
+    background: url('../images/back1.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-position: center center;
+}
+#About {
+    margin-top: -200px;
+}
+#About .fa {
+    color: #fff;
+}
+#About span {
+    padding: 10px 20px 10px 20px;
+}
+#About hr {
+    border-width: 2px;
+    margin-top: 06px
+}
+#Skills span {
+    padding: 10px 20px 10px 20px;
+}
+#Skills hr {
+    border-width: 2px;
+    margin-top: 6px;
+}
+#Services {
+    color: #fff;
+}
+#Services span {
+    color: green;
+}
+#Services .fa {
+    font-size: 75px;
+}
+#gallery h2 span {
+    color: rgb(240, 240, 7);
+}
+
+ #gallery img{
+    min-height: 250px;
+}
+#Contact span {
+    padding: 10px 20px 10px 20px;
+}
+#Contact hr {
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+
+
+.Contact-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("assets/images/work5.jpg")
+    background-color:#C8D6E6;
+    background-size: cover;
+   
+
+}
+
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 18px;
+    margin-left: 60px;
+
+}
+
+.contact-left-titel h2 {
+
+    color: black;
+    font-size: 28px;
+    margin-left: 930px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.contact-left-titel hr{
+    border: none;
+    height: 2.5px;
+    background-color: black;
+    border-radius: 20pz;
+    margin-bottom: 20px;
+}
+
+.contact-input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-weight: 300;
+    border-radius: 20px;
+}
+
+
+.contact-left textarea{
+    height: 45px;
+    padding-top: 10px;
+    border-radius: 20px;
+
+}
+
+.contact-input:focus{
+    border: 1.5px solid black;
+
+}
+
+.contact-input::placeholder{
+    color: black;
+
+}
+
+.contact-left button{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 13px;
+    color: black;
+    gap: 3px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(270deg, #FFFAF0, #F8F8F8);
+
+
+}
+
+
+@media (max-width: 800px) {
+    .contact-input{
+        width: 80vw;
+    }
+}
+
+.contact-right{
+    display: none;
+}
+
+
+
+
+
+
+
